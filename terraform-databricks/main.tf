@@ -15,7 +15,7 @@ terraform {
     azurerm = "=2.67.0"
   }
 }
-/*
+
 provider "azurerm" {
   features {}
 }
@@ -28,4 +28,3 @@ data "azurerm_databricks_workspace" "databricksWokspace" {
 provider "databricks" {
   azure_workspace_resource_id = data.azurerm_databricks_workspace.databricksWokspace.id
 }
-*/

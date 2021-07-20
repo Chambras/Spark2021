@@ -1,4 +1,4 @@
-/*data "databricks_node_type" "smallest" {
+data "databricks_node_type" "smallest" {
   local_disk = true
 }
 
@@ -16,4 +16,3 @@ resource "databricks_cluster" "shared_autoscaling" {
     max_workers = 2
   }
 }
-*/
